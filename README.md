@@ -5,9 +5,12 @@
 
 # 环境
 python的版本是 python3.6, python需要安装的库包括 scrapy pymongo selenium(selenium本人用的是Firefox需要geckodriver) lxml requests threadpool 等
-
+<br/>    
 运行项目需要配置 IpProxyCrawler/db/MongoConnect.py 中mongodb的连接配置
+<br/>    
                  IpProxyCrawler/utils/EmailUtils.py 中邮箱的配置
+
+<br/>                 
 运行 IpProxyCrawler/start.py 文件 启动任务
 
 
